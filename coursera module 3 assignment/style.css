@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.navbar-nav{
+    float: right;
+}
+
+
+.container-fluid>h2{
+    margin-bottom:30px;
+    text-align: center;
+}
+
+@media (min-width: 700px){
+a.nav-link.active{
+    display: none;
+}
+
+a.nav-link{
+    display: none; 
+}
+}
+
+a.nav-link.active:hover{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+a.nav-link:hover{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+.container-fluid>h2>p{
+    margin-top: 20px;
+}
+
+.logo{
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
